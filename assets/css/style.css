@@ -188,6 +188,8 @@ aside.repository-side {
 }
 .feeds {
     flex-grow: 1;
+    box-sizing: border-box;
+    padding: 32px;
 }
 .explore-repositories {
     max-width: 350px;
@@ -225,13 +227,13 @@ aside.repository-side {
     align-items: center;
 }
 
-.repository-bottom .badge {
+.badge {
     display: flex;
     align-items: center;
     font: 12px Shabnam;
     line-height: 20px;
 }
-.repository-bottom .badge .badge-color {
+.badge .badge-color {
     width: 12px;
     height: 12px;
     margin-right: 4px;
@@ -239,3 +241,86 @@ aside.repository-side {
     border-radius: 5px;
     background-color: #00ADD8;
 }
+
+
+.feed-item {
+    width: 100%;
+    display: flex;
+    padding: 16px 0;
+    border-bottom: 1px solid #e1e4e8;
+}
+
+.feed-item .user-profile {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 16px;
+}
+
+.feed-item .user-profile img {
+    width: 100%;
+    height: 100%;
+}
+
+.feed-item .feed-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.feed-title {
+    font: 15px Shabnam;
+    color: rgb(36, 41, 46);
+    margin-bottom: 8px;
+}
+
+
+.feed-title span {
+    font-weight: bold;
+    color: black;
+}
+
+.feed-content .feed-repo-info {
+    background-color: white;
+    border: 1px solid #e1e4e8;
+    box-sizing: border-box;
+    padding: 16px;
+    border-radius: 10px;
+}
+.feed-content .feed-repo-info h3 {
+    font: 16px Shabnam;
+    font-weight: bold;
+    color: black;
+}
+
+.feed-content .feed-repo-info p {
+    color: rgb(88, 96, 105);
+    font: 14px Shabnam;
+    margin-top: 8px;
+}
+
+.feed-content .feed-bottom-items {
+    width: 100%;
+    display: flex;
+
+}
+
+.feed-content .feed-bottom-item {
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+}
+
+
+.feed-content .feed-bottom-item .icon svg {
+    fill: rgb(88, 96, 105);
+    vertical-align: middle;
+    margin-right: 4px;
+}
+.feed-content .feed-bottom-item .value {
+    font: 12px Shabnam;
+    color: rgb(88, 96, 105);
+    line-height: 100%;
+}
+
