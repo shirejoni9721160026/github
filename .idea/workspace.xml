@@ -27,12 +27,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -48,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604761651555</updated>
-      <workItem from="1604761652893" duration="14738000" />
+      <workItem from="1604761652893" duration="15427000" />
     </task>
     <servers />
   </component>
@@ -60,13 +61,13 @@
       <screen x="66" y="27" width="1854" height="1053" />
     </state>
     <state x="894" y="408" width="810" height="435" key="#Vim_Emulation/66.27.1854.1053@66.27.1854.1053" timestamp="1604773859839" />
-    <state width="498" height="448" key="SwitcherDM" timestamp="1604778179931">
+    <state width="498" height="448" key="SwitcherDM" timestamp="1604779111381">
       <screen x="66" y="27" width="1854" height="1053" />
     </state>
-    <state width="498" height="448" key="SwitcherDM/66.27.1854.1053@66.27.1854.1053" timestamp="1604778179931" />
-    <state x="656" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1604777060819">
+    <state width="498" height="448" key="SwitcherDM/66.27.1854.1053@66.27.1854.1053" timestamp="1604779111381" />
+    <state x="656" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1604779108839">
       <screen x="66" y="27" width="1854" height="1053" />
     </state>
-    <state x="656" y="259" width="672" height="678" key="search.everywhere.popup/66.27.1854.1053@66.27.1854.1053" timestamp="1604777060819" />
+    <state x="656" y="259" width="672" height="678" key="search.everywhere.popup/66.27.1854.1053@66.27.1854.1053" timestamp="1604779108839" />
   </component>
 </project>
