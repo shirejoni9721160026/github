@@ -434,6 +434,18 @@ aside.repository-side {
     .explore-repositories {
         display: none;
     }
+    .description {
+        align-items: end;
+        padding-bottom: 50px;
+        box-sizing: border-box;
+        color: white;
+        background-color: #00ADD8;
+    }
+    .github-user-info {
+        justify-content: start !important;
+        background-color: #00ADD8;
+    }
+
 }
 
 @media (max-width: 740px) {
@@ -446,5 +458,17 @@ aside.repository-side {
     .repository-side {
         flex-shrink: 0;
         max-width: 100% !important;
+    }
+    .description {
+        align-items: start;
+        padding-top: 50px;
+        box-sizing: border-box;
+        color: white;
+        background-color: crimson;
+    }
+    .github-user-info {
+        justify-content: end !important;
+        background-color: crimson;
+
     }
 }
