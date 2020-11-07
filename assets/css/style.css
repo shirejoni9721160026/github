@@ -158,6 +158,7 @@ div.row {
     width: 100%;
     background-color: #f6f8fa;
     min-height: calc(100vh - 64px);
+    flex-wrap: wrap;
 }
 /* Repository Sidebar */
 aside.repository-side {
@@ -417,4 +418,33 @@ aside.repository-side {
 .github-user-info p {
     color: rgb(88, 96, 105);
 
+}
+
+
+.description {
+    font: 20px Shabnam;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1100px) {
+    .explore-repositories {
+        display: none;
+    }
+}
+
+@media (max-width: 740px) {
+    header .links {
+        display: none ;
+    }
+    header .search-container {
+        display: none;
+    }
+    .repository-side {
+        flex-shrink: 0;
+        max-width: 100% !important;
+    }
 }
