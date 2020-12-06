@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a39010f-9280-4e6e-a7b2-6199659dfd13" name="Default Changelist" comment="" />
+    <list default="true" id="0a39010f-9280-4e6e-a7b2-6199659dfd13" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +21,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jy1jPvgCfDxSRBXfK3LBHu9T3Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,7 +56,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604761651555</updated>
-      <workItem from="1604761652893" duration="15427000" />
+      <workItem from="1604761652893" duration="16076000" />
+      <workItem from="1604854460455" duration="61000" />
+      <workItem from="1607235057083" duration="614000" />
     </task>
     <servers />
   </component>
@@ -61,13 +70,13 @@
       <screen x="66" y="27" width="1854" height="1053" />
     </state>
     <state x="894" y="408" width="810" height="435" key="#Vim_Emulation/66.27.1854.1053@66.27.1854.1053" timestamp="1604773859839" />
-    <state width="498" height="448" key="SwitcherDM" timestamp="1604779111381">
+    <state width="498" height="448" key="SwitcherDM" timestamp="1607235098755">
       <screen x="66" y="27" width="1854" height="1053" />
     </state>
-    <state width="498" height="448" key="SwitcherDM/66.27.1854.1053@66.27.1854.1053" timestamp="1604779111381" />
-    <state x="656" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1604779108839">
+    <state width="498" height="448" key="SwitcherDM/66.27.1854.1053@66.27.1854.1053" timestamp="1607235098755" />
+    <state x="656" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1607235095659">
       <screen x="66" y="27" width="1854" height="1053" />
     </state>
-    <state x="656" y="259" width="672" height="678" key="search.everywhere.popup/66.27.1854.1053@66.27.1854.1053" timestamp="1604779108839" />
+    <state x="656" y="259" width="672" height="678" key="search.everywhere.popup/66.27.1854.1053@66.27.1854.1053" timestamp="1607235095658" />
   </component>
 </project>
