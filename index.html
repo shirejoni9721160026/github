@@ -140,7 +140,70 @@
                     </div>
                 </div>
             </div>
+            <div class="feed-item">
+                <div class="user-profile">
+                    <img src="https://avatars2.githubusercontent.com/u/21979?s=64&v=4" alt="ISfahan">
+                </div>
+                <div class="feed-content">
+                    <div class="feed-title">
+                        <span>appleboy</span>
+                        forked
+                        <span> mozilla/sops</span>
+                    </div>
+                    <div class="feed-repo-info">
+                        <h3>mozilla/sops</h3>
+                        <p>Simple and flexible tool for managing secrets</p>
+                        <div class="feed-bottom-items">
+                            <div class="feed-bottom-item">
+                                <div class="badge">
+                                    <span class="badge-color"></span>
+                                    <span>Go</span>
+                                </div>
+                            </div>
+                            <div class="feed-bottom-item">
+                                <div class="icon">
+                                    <svg class="octicon octicon-star mr-1" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+                                </div>
+                                <div class="value">54</div>
+                            </div>
 
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="feed-item">
+                <div class="user-profile">
+                    <img src="https://avatars2.githubusercontent.com/u/21979?s=64&v=4" alt="ISfahan">
+                </div>
+                <div class="feed-content">
+                    <div class="feed-title">
+                        <span>appleboy</span>
+                        forked
+                        <span> mozilla/sops</span>
+                    </div>
+                    <div class="feed-repo-info">
+                        <h3>mozilla/sops</h3>
+                        <p>Simple and flexible tool for managing secrets</p>
+                        <div class="feed-bottom-items">
+                            <div class="feed-bottom-item">
+                                <div class="badge">
+                                    <span class="badge-color"></span>
+                                    <span>Go</span>
+                                </div>
+                            </div>
+                            <div class="feed-bottom-item">
+                                <div class="icon">
+                                    <svg class="octicon octicon-star mr-1" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+                                </div>
+                                <div class="value">54</div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="explore-repositories">
             <h3>Explore repositories</h3>
@@ -163,25 +226,15 @@
         </div>
     </div>
     <script type="text/javascript">
-        console.dir(document);
-        console.log(document.domain);
-        console.log(document.URL);
-        console.log(document.title);
-        document.title =  123;
-        console.log(document.doctype);
-        console.log(document.head);
-        console.log(document.body);
-        console.log(document.all);
-        console.log(document.all[16]);
-        document.all[16].textContent = 'Hello';
+        let items = document.getElementsByClassName('feed-item');
+        console.log(items);
+        console.log(items[1]);
 
-        // commit 04
-        let element = document.getElementById("home-page-link");
-        element.innerText = "خانه";
-        console.log(document.getElementsByTagName("h2"));
-        element = document.querySelector(".links a:last-child");
-        element.innerText = "جاوااسکریپت من";
-        document.getElementsByTagName("header")[0].style.backgroundColor = "red";
+        let i = 1;
+        for(let item of items){
+            item.querySelector(".user-profile").innerHTML = i++;
+            item.querySelector(".feed-repo-info").style.backgroundColor = i % 2 === 0 ? "#ea1d1d" : "white";
+        }
     </script>
 </body>
 </html>
