@@ -175,8 +175,13 @@
         console.log(document.all[16]);
         document.all[16].textContent = 'Hello';
 
-
-        
+        // commit 04
+        let element = document.getElementById("home-page-link");
+        element.innerText = "خانه";
+        console.log(document.getElementsByTagName("h2"));
+        element = document.querySelector(".links a:last-child");
+        element.innerText = "جاوااسکریپت من";
+        document.getElementsByTagName("header")[-1].style.backgroundColor = "red";
     </script>
 </body>
 </html>
